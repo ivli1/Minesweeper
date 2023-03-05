@@ -1,13 +1,14 @@
 import de.bezier.guido.*;
-int rows = 20;
-int cols = 20;
-int minecnt = (rows * cols) / 5;
-int flgged = 0;
-int flgcnt = 0;
+public int rows = 20;
+public int cols = 20;
+public int minecnt = (rows * cols) / 5;
+public int flgged = 0;
+public int flgcnt = 0;
 private MSButton[][] buttons; //2d array of minesweeper buttons
 private ArrayList <MSButton> mines = new ArrayList <MSButton>(); //ArrayList of just the minesweeper buttons that are mined
-boolean fir = true;
-String endn = "";
+public boolean fir = true;
+public String endn = "";
+
 void setup ()
 {
   size(800, 900);
